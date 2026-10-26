@@ -1,0 +1,39 @@
+{
+  "name": "quantess",
+  "version": "1.1.0",
+  "description": "QUANTESS in your terminal: one command that reads, builds, runs, researches and remembers - paid Nemotron with a daily cap.",
+  "type": "module",
+  "main": "src/cli.js",
+  "bin": {
+    "quantess": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "dev": "node --watch src/cli.js",
+    "test": "node --test src/**/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "@playwright/mcp": "0.0.78",
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "glob": "^13.0.6",
+    "js-yaml": "^4.1.0",
+    "openai": "^4.56.0",
+    "ora": "^8.0.1",
+    "playwright": "1.63.0",
+    "prompts": "^2.4.2",
+    "tldts": "7.4.19"
+  },
+  "keywords": [],
+  "author": "Quantum Melanin Media",
+  "license": "Apache-2.0",
+  "overrides": {
+    "zod": "4.6.7"
+  },
+  "homepage": "https://quantus-ai.onrender.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/respectfulnrespected59-source/quantess.git"
+  }
+}
